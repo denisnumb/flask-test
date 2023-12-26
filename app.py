@@ -54,4 +54,4 @@ def _add_data():
     return redirect(url_for('_json'))
 
 if __name__ == '__main__':
-    app.run(port=5000)
+    app.run(host='5.42.79.161', port=5000)
